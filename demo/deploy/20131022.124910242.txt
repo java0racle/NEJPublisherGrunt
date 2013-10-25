@@ -1,0 +1,381 @@
+[INFO] 2013-10-22 12:49:10.245	-	parse D:/workspace/publish/NEJPublisher/demo/deploy/release.conf
+[INFO] 2013-10-22 12:49:10.280	-	config -> {"DIR_CONFIG":"D:/workspace/publish/NEJPublisher/demo/deploy/","DIR_LOGGER":"D:/workspace/publish/NEJPublisher/demo/deploy/20131022.124910242.txt","DIR_TEMPORARY":"D:/workspace/publish/NEJPublisher/demo/deploy/20131022.124910242/","DIR_WEBROOT":"D:/workspace/publish/NEJPublisher/demo/web-app/","DIR_SOURCE":"D:/workspace/publish/NEJPublisher/demo/web-app/src/html/","DIR_OUTPUT":"D:/workspace/publish/NEJPublisher/demo/web-app/pub/","DIR_OUTPUT_STATIC":"D:/workspace/publish/NEJPublisher/demo/web-app/r/","DIR_STATIC":"D:/workspace/publish/NEJPublisher/demo/web-app/image/","NEJ_DIR":"http://nej.netease.com/nej/src/","STATIC_VERSION":true,"OBF_LEVEL":1,"OBF_MAX_JS_INLINE_SIZE":50,"DIR_SOURCE_TP":"","DIR_OUTPUT_TP":"","ALIAS_DICTIONARY":{},"ALIAS_START_TAG":"${","ALIAS_END_TAG":"}","ALIAS_REG":{},"DIR_MANIFEST":"","FILE_SUFFIXE":"","FILE_CHARSET":"utf-8","RAND_VERSION":false,"X_NOCOMPRESS":false,"X_NOPARSE_FLAG":0,"X_NOCORE_STYLE":false,"X_NOCORE_SCRIPT":false,"X_NOT_CLEAR_TEMP":false,"X_AUTO_EXLINK_PATH":false,"X_MODULE_WRAPPER":"%s","X_RELEASE_MODE":"online","DM_STATIC_CS":"/","DM_STATIC_JS":"/","DM_STATIC_RR":true,"DM_STATIC":"/","DM_STATIC_CS_RR":true,"DM_STATIC_JS_RR":true,"DIR_STATIC_REG":{},"OBF_LINE_MODE":1,"OBF_MAX_CS_INLINE_SIZE":50,"OBF_NAME_BAGS":"D:/workspace/publish/NEJPublisher/demo/deploy/names.txt","CORE_LIST_JS":"","CORE_LIST_CS":""}
+[INFO] 2013-10-22 12:49:10.284	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a0.html
+[DBUG] 2013-10-22 12:49:10.293	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a0.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a0.js"]
+[INFO] 2013-10-22 12:49:10.294	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a1.html
+[DBUG] 2013-10-22 12:49:10.295	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a1.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a1.js"]
+[INFO] 2013-10-22 12:49:10.297	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a2.html
+[DBUG] 2013-10-22 12:49:10.298	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a2.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a2.js"]
+[INFO] 2013-10-22 12:49:10.299	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.html
+[DBUG] 2013-10-22 12:49:10.301	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.js"]
+[INFO] 2013-10-22 12:49:10.302	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b0.html
+[DBUG] 2013-10-22 12:49:10.304	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b0.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b0.js"]
+[INFO] 2013-10-22 12:49:10.305	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b1.html
+[DBUG] 2013-10-22 12:49:10.306	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b1.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b1.js"]
+[INFO] 2013-10-22 12:49:10.307	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b2.html
+[DBUG] 2013-10-22 12:49:10.308	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b2.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b2.js"]
+[INFO] 2013-10-22 12:49:10.308	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.html
+[DBUG] 2013-10-22 12:49:10.310	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.js"]
+[INFO] 2013-10-22 12:49:10.311	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/c.html
+[DBUG] 2013-10-22 12:49:10.312	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/c.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/c.js"]
+[INFO] 2013-10-22 12:49:10.314	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d0.html
+[DBUG] 2013-10-22 12:49:10.316	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d0.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d0.js"]
+[INFO] 2013-10-22 12:49:10.317	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d1.html
+[DBUG] 2013-10-22 12:49:10.318	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d1.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d1.js"]
+[INFO] 2013-10-22 12:49:10.320	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d2.html
+[DBUG] 2013-10-22 12:49:10.321	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d2.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d2.js"]
+[INFO] 2013-10-22 12:49:10.322	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.html
+[DBUG] 2013-10-22 12:49:10.323	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.js"]
+[INFO] 2013-10-22 12:49:10.324	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/m.html
+[DBUG] 2013-10-22 12:49:10.325	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/m.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/m.js"]
+[INFO] 2013-10-22 12:49:10.326	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/ui.html
+[DBUG] 2013-10-22 12:49:10.327	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/ui.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/ui.js"]
+[INFO] 2013-10-22 12:49:10.327	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index.html
+[DBUG] 2013-10-22 12:49:10.340	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/index.js"]
+[INFO] 2013-10-22 12:49:10.341	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/simple.html
+[DBUG] 2013-10-22 12:49:10.342	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/simple.html -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/simple.js"]
+[INFO] 2013-10-22 12:49:10.343	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/test/a.html
+[DBUG] 2013-10-22 12:49:10.343	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/test/a.html -> undefined
+[INFO] 2013-10-22 12:49:10.345	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/html/test/b.html
+[DBUG] 2013-10-22 12:49:10.346	-	D:/workspace/publish/NEJPublisher/demo/web-app/src/html/test/b.html -> undefined
+[INFO] 2013-10-22 12:49:10.348	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a0.js
+[DBUG] 2013-10-22 12:49:10.351	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a0.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.377	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/module.js
+[DBUG] 2013-10-22 12:49:10.380	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/module.js -> ["{lib}util/dispatcher/module.2.js"]
+[DBUG] 2013-10-22 12:49:10.402	-	map http://nej.netease.com/nej/src/util/dispatcher/module.2.js -> 1382417350348.js
+[INFO] 2013-10-22 12:49:10.403	-	downloading http://nej.netease.com/nej/src/util/dispatcher/module.2.js
+[INFO] 2013-10-22 12:49:10.439	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a1.js
+[DBUG] 2013-10-22 12:49:10.441	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a1.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.460	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a2.js
+[DBUG] 2013-10-22 12:49:10.462	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a2.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.482	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.js
+[DBUG] 2013-10-22 12:49:10.485	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.js -> ["{lib}util/tab/tab.js","{pro}module/module.js"]
+[DBUG] 2013-10-22 12:49:10.486	-	map http://nej.netease.com/nej/src/util/tab/tab.js -> 1382417350349.js
+[INFO] 2013-10-22 12:49:10.508	-	downloading http://nej.netease.com/nej/src/util/tab/tab.js
+[INFO] 2013-10-22 12:49:10.511	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b0.js
+[DBUG] 2013-10-22 12:49:10.515	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b0.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.516	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b1.js
+[DBUG] 2013-10-22 12:49:10.518	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b1.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.553	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b2.js
+[DBUG] 2013-10-22 12:49:10.556	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b2.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.557	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.js
+[DBUG] 2013-10-22 12:49:10.574	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.600	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/c.js
+[DBUG] 2013-10-22 12:49:10.603	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/c.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.626	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d0.js
+[DBUG] 2013-10-22 12:49:10.628	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d0.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.651	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d1.js
+[DBUG] 2013-10-22 12:49:10.653	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d1.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.675	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d2.js
+[DBUG] 2013-10-22 12:49:10.676	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d2.js -> ["{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.695	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.js
+[DBUG] 2013-10-22 12:49:10.700	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.js -> ["{lib}util/tab/tab.js","{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.721	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/m.js
+[DBUG] 2013-10-22 12:49:10.723	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/m.js -> ["{lib}util/tab/tab.js","{pro}module/module.js"]
+[INFO] 2013-10-22 12:49:10.739	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/ui.js
+[DBUG] 2013-10-22 12:49:10.741	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/ui.js -> ["{lib}ui/base.js"]
+[DBUG] 2013-10-22 12:49:10.760	-	map http://nej.netease.com/nej/src/ui/base.js -> 1382417350350.js
+[INFO] 2013-10-22 12:49:10.760	-	downloading http://nej.netease.com/nej/src/ui/base.js
+[INFO] 2013-10-22 12:49:10.762	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/index.js
+[DBUG] 2013-10-22 12:49:10.765	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/index.js -> ["{lib}util/template/tpl.js","{lib}util/dispatcher/dispatcher.2.js"]
+[DBUG] 2013-10-22 12:49:10.767	-	map http://nej.netease.com/nej/src/util/template/tpl.js -> 1382417350351.js
+[INFO] 2013-10-22 12:49:10.768	-	downloading http://nej.netease.com/nej/src/util/template/tpl.js
+[DBUG] 2013-10-22 12:49:10.770	-	map http://nej.netease.com/nej/src/util/dispatcher/dispatcher.2.js -> 1382417350352.js
+[INFO] 2013-10-22 12:49:10.771	-	downloading http://nej.netease.com/nej/src/util/dispatcher/dispatcher.2.js
+[INFO] 2013-10-22 12:49:10.772	-	parse D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/simple.js
+[DBUG] 2013-10-22 12:49:10.774	-	dependency result: D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/simple.js -> undefined
+[DBUG] 2013-10-22 12:49:11.39	-	dependency result: http://nej.netease.com/nej/src/util/dispatcher/module.2.js -> ["{lib}util/event.js"]
+[DBUG] 2013-10-22 12:49:11.40	-	map http://nej.netease.com/nej/src/util/event.js -> 1382417350353.js
+[INFO] 2013-10-22 12:49:11.41	-	downloading http://nej.netease.com/nej/src/util/event.js
+[DBUG] 2013-10-22 12:49:11.65	-	dependency result: http://nej.netease.com/nej/src/util/tab/tab.js -> ["{lib}base/event.js","{lib}base/element.js","{lib}util/event.js"]
+[DBUG] 2013-10-22 12:49:11.68	-	map http://nej.netease.com/nej/src/base/event.js -> 1382417350354.js
+[INFO] 2013-10-22 12:49:11.69	-	downloading http://nej.netease.com/nej/src/base/event.js
+[DBUG] 2013-10-22 12:49:11.70	-	map http://nej.netease.com/nej/src/base/element.js -> 1382417350355.js
+[INFO] 2013-10-22 12:49:11.93	-	downloading http://nej.netease.com/nej/src/base/element.js
+[DBUG] 2013-10-22 12:49:11.97	-	dependency result: http://nej.netease.com/nej/src/ui/base.js -> ["{lib}base/element.js","{lib}util/event.js","{lib}util/template/tpl.js"]
+[DBUG] 2013-10-22 12:49:11.120	-	dependency result: http://nej.netease.com/nej/src/util/template/tpl.js -> ["{lib}util/template/jst.js","{lib}util/event/event.js","{lib}util/ajax/tag.js","{lib}util/ajax/xdr.js"]
+[DBUG] 2013-10-22 12:49:11.138	-	map http://nej.netease.com/nej/src/util/template/jst.js -> 1382417350356.js
+[INFO] 2013-10-22 12:49:11.139	-	downloading http://nej.netease.com/nej/src/util/template/jst.js
+[DBUG] 2013-10-22 12:49:11.141	-	map http://nej.netease.com/nej/src/util/event/event.js -> 1382417350357.js
+[INFO] 2013-10-22 12:49:11.141	-	downloading http://nej.netease.com/nej/src/util/event/event.js
+[DBUG] 2013-10-22 12:49:11.142	-	map http://nej.netease.com/nej/src/util/ajax/tag.js -> 1382417350358.js
+[INFO] 2013-10-22 12:49:11.143	-	downloading http://nej.netease.com/nej/src/util/ajax/tag.js
+[DBUG] 2013-10-22 12:49:11.144	-	map http://nej.netease.com/nej/src/util/ajax/xdr.js -> 1382417350359.js
+[INFO] 2013-10-22 12:49:11.145	-	downloading http://nej.netease.com/nej/src/util/ajax/xdr.js
+[DBUG] 2013-10-22 12:49:11.150	-	dependency result: http://nej.netease.com/nej/src/util/dispatcher/dispatcher.2.js -> ["{lib}util/dispatcher/dsp/group.single.js","{lib}util/history/history.js","{lib}util/template/tpl.js"]
+[DBUG] 2013-10-22 12:49:11.167	-	map http://nej.netease.com/nej/src/util/dispatcher/dsp/group.single.js -> 1382417350360.js
+[INFO] 2013-10-22 12:49:11.168	-	downloading http://nej.netease.com/nej/src/util/dispatcher/dsp/group.single.js
+[DBUG] 2013-10-22 12:49:11.170	-	map http://nej.netease.com/nej/src/util/history/history.js -> 1382417350361.js
+[INFO] 2013-10-22 12:49:11.171	-	downloading http://nej.netease.com/nej/src/util/history/history.js
+[DBUG] 2013-10-22 12:49:11.382	-	dependency result: http://nej.netease.com/nej/src/util/event/event.js -> ["{lib}base/util.js","{lib}base/event.js","{lib}base/element.js","{lib}util/event.js"]
+[DBUG] 2013-10-22 12:49:11.383	-	map http://nej.netease.com/nej/src/base/util.js -> 1382417350362.js
+[INFO] 2013-10-22 12:49:11.383	-	downloading http://nej.netease.com/nej/src/base/util.js
+[DBUG] 2013-10-22 12:49:11.400	-	dependency result: http://nej.netease.com/nej/src/util/template/jst.js -> ["{lib}base/util.js","{lib}base/element.js","{lib}util/template/trimpath.nej.js"]
+[DBUG] 2013-10-22 12:49:11.402	-	map http://nej.netease.com/nej/src/util/template/trimpath.nej.js -> 1382417350363.js
+[INFO] 2013-10-22 12:49:11.403	-	downloading http://nej.netease.com/nej/src/util/template/trimpath.nej.js
+[DBUG] 2013-10-22 12:49:11.437	-	dependency result: http://nej.netease.com/nej/src/util/event.js -> ["{lib}base/event.js","{lib}base/util.js"]
+[DBUG] 2013-10-22 12:49:11.457	-	dependency result: http://nej.netease.com/nej/src/util/ajax/tag.js -> ["{lib}util/ajax/loader/html.js","{lib}util/ajax/loader/style.js","{lib}util/ajax/loader/script.js"]
+[DBUG] 2013-10-22 12:49:11.471	-	map http://nej.netease.com/nej/src/util/ajax/loader/html.js -> 1382417350364.js
+[INFO] 2013-10-22 12:49:11.472	-	downloading http://nej.netease.com/nej/src/util/ajax/loader/html.js
+[DBUG] 2013-10-22 12:49:11.474	-	map http://nej.netease.com/nej/src/util/ajax/loader/style.js -> 1382417350365.js
+[INFO] 2013-10-22 12:49:11.474	-	downloading http://nej.netease.com/nej/src/util/ajax/loader/style.js
+[DBUG] 2013-10-22 12:49:11.475	-	map http://nej.netease.com/nej/src/util/ajax/loader/script.js -> 1382417350366.js
+[INFO] 2013-10-22 12:49:11.477	-	downloading http://nej.netease.com/nej/src/util/ajax/loader/script.js
+[DBUG] 2013-10-22 12:49:11.483	-	dependency result: http://nej.netease.com/nej/src/base/element.js -> ["{lib}base/constant.js","{lib}base/event.js","{lib}base/util.js","{patch}api.js","{patch}json.js"]
+[DBUG] 2013-10-22 12:49:11.484	-	map http://nej.netease.com/nej/src/base/constant.js -> 1382417350367.js
+[INFO] 2013-10-22 12:49:11.505	-	downloading http://nej.netease.com/nej/src/base/constant.js
+[DBUG] 2013-10-22 12:49:11.506	-	map http://nej.netease.com/nej/src/patched/trident-0/api.js -> 1382417350368.js
+[INFO] 2013-10-22 12:49:11.507	-	downloading http://nej.netease.com/nej/src/patched/trident-0/api.js
+[DBUG] 2013-10-22 12:49:11.508	-	map http://nej.netease.com/nej/src/patched/trident-1/api.js -> 1382417350369.js
+[INFO] 2013-10-22 12:49:11.509	-	downloading http://nej.netease.com/nej/src/patched/trident-1/api.js
+[DBUG] 2013-10-22 12:49:11.510	-	map http://nej.netease.com/nej/src/patched/trident/api.js -> 1382417350370.js
+[INFO] 2013-10-22 12:49:11.511	-	downloading http://nej.netease.com/nej/src/patched/trident/api.js
+[DBUG] 2013-10-22 12:49:11.512	-	map http://nej.netease.com/nej/src/patched/gecko/api.js -> 1382417350371.js
+[INFO] 2013-10-22 12:49:11.512	-	downloading http://nej.netease.com/nej/src/patched/gecko/api.js
+[DBUG] 2013-10-22 12:49:11.513	-	map http://nej.netease.com/nej/src/patched/webkit/api.js -> 1382417350372.js
+[INFO] 2013-10-22 12:49:11.514	-	downloading http://nej.netease.com/nej/src/patched/webkit/api.js
+[DBUG] 2013-10-22 12:49:11.515	-	map http://nej.netease.com/nej/src/patched/presto/api.js -> 1382417350373.js
+[INFO] 2013-10-22 12:49:11.515	-	downloading http://nej.netease.com/nej/src/patched/presto/api.js
+[DBUG] 2013-10-22 12:49:11.517	-	map http://nej.netease.com/nej/src/patched/trident-0/json.js -> 1382417350374.js
+[INFO] 2013-10-22 12:49:11.517	-	downloading http://nej.netease.com/nej/src/patched/trident-0/json.js
+[DBUG] 2013-10-22 12:49:11.518	-	map http://nej.netease.com/nej/src/patched/trident-1/json.js -> 1382417350375.js
+[INFO] 2013-10-22 12:49:11.519	-	downloading http://nej.netease.com/nej/src/patched/trident-1/json.js
+[DBUG] 2013-10-22 12:49:11.520	-	map http://nej.netease.com/nej/src/patched/trident/json.js -> 1382417350376.js
+[INFO] 2013-10-22 12:49:11.521	-	downloading http://nej.netease.com/nej/src/patched/trident/json.js
+[DBUG] 2013-10-22 12:49:11.521	-	map http://nej.netease.com/nej/src/patched/gecko/json.js -> 1382417350377.js
+[INFO] 2013-10-22 12:49:11.522	-	downloading http://nej.netease.com/nej/src/patched/gecko/json.js
+[DBUG] 2013-10-22 12:49:11.523	-	map http://nej.netease.com/nej/src/patched/webkit/json.js -> 1382417350378.js
+[INFO] 2013-10-22 12:49:11.524	-	downloading http://nej.netease.com/nej/src/patched/webkit/json.js
+[DBUG] 2013-10-22 12:49:11.525	-	map http://nej.netease.com/nej/src/patched/presto/json.js -> 1382417350379.js
+[INFO] 2013-10-22 12:49:11.525	-	downloading http://nej.netease.com/nej/src/patched/presto/json.js
+[DBUG] 2013-10-22 12:49:11.527	-	dependency result: http://nej.netease.com/nej/src/util/dispatcher/dsp/group.single.js -> ["{lib}util/dispatcher/dsp/group.js"]
+[DBUG] 2013-10-22 12:49:11.544	-	map http://nej.netease.com/nej/src/util/dispatcher/dsp/group.js -> 1382417350380.js
+[INFO] 2013-10-22 12:49:11.545	-	downloading http://nej.netease.com/nej/src/util/dispatcher/dsp/group.js
+[DBUG] 2013-10-22 12:49:11.547	-	dependency result: http://nej.netease.com/nej/src/util/history/history.js -> ["{lib}util/event/event.js","{lib}util/timer/animation.js","{patch}api.js"]
+[DBUG] 2013-10-22 12:49:11.564	-	map http://nej.netease.com/nej/src/util/timer/animation.js -> 1382417350381.js
+[INFO] 2013-10-22 12:49:11.565	-	downloading http://nej.netease.com/nej/src/util/timer/animation.js
+[DBUG] 2013-10-22 12:49:11.568	-	dependency result: http://nej.netease.com/nej/src/util/ajax/xdr.js -> ["{lib}base/constant.js","{lib}base/util.js","{patch}ajax.js"]
+[DBUG] 2013-10-22 12:49:11.584	-	map http://nej.netease.com/nej/src/patched/trident-0/ajax.js -> 1382417350382.js
+[INFO] 2013-10-22 12:49:11.584	-	downloading http://nej.netease.com/nej/src/patched/trident-0/ajax.js
+[DBUG] 2013-10-22 12:49:11.586	-	map http://nej.netease.com/nej/src/patched/trident-1/ajax.js -> 1382417350383.js
+[INFO] 2013-10-22 12:49:11.587	-	downloading http://nej.netease.com/nej/src/patched/trident-1/ajax.js
+[DBUG] 2013-10-22 12:49:11.589	-	map http://nej.netease.com/nej/src/patched/trident/ajax.js -> 1382417350384.js
+[INFO] 2013-10-22 12:49:11.590	-	downloading http://nej.netease.com/nej/src/patched/trident/ajax.js
+[DBUG] 2013-10-22 12:49:11.591	-	map http://nej.netease.com/nej/src/patched/gecko/ajax.js -> 1382417350385.js
+[INFO] 2013-10-22 12:49:11.591	-	downloading http://nej.netease.com/nej/src/patched/gecko/ajax.js
+[DBUG] 2013-10-22 12:49:11.593	-	map http://nej.netease.com/nej/src/patched/webkit/ajax.js -> 1382417350386.js
+[INFO] 2013-10-22 12:49:11.594	-	downloading http://nej.netease.com/nej/src/patched/webkit/ajax.js
+[DBUG] 2013-10-22 12:49:11.595	-	map http://nej.netease.com/nej/src/patched/presto/ajax.js -> 1382417350387.js
+[INFO] 2013-10-22 12:49:11.596	-	downloading http://nej.netease.com/nej/src/patched/presto/ajax.js
+[DBUG] 2013-10-22 12:49:11.755	-	dependency result: http://nej.netease.com/nej/src/base/event.js -> ["{lib}base/element.js","{lib}base/util.js","{patch}api.js"]
+[DBUG] 2013-10-22 12:49:11.772	-	dependency result: http://nej.netease.com/nej/src/util/ajax/loader/script.js -> ["{lib}util/ajax/loader/loader.js"]
+[DBUG] 2013-10-22 12:49:11.789	-	map http://nej.netease.com/nej/src/util/ajax/loader/loader.js -> 1382417350388.js
+[INFO] 2013-10-22 12:49:11.790	-	downloading http://nej.netease.com/nej/src/util/ajax/loader/loader.js
+[DBUG] 2013-10-22 12:49:11.800	-	dependency result: http://nej.netease.com/nej/src/util/ajax/loader/style.js -> ["{lib}util/ajax/loader/loader.js"]
+[DBUG] 2013-10-22 12:49:11.820	-	dependency result: http://nej.netease.com/nej/src/util/ajax/loader/html.js -> ["{lib}util/ajax/loader/loader.js"]
+[DBUG] 2013-10-22 12:49:11.839	-	dependency result: http://nej.netease.com/nej/src/base/constant.js -> ["{lib}base/global.js","{patch}config.js"]
+[DBUG] 2013-10-22 12:49:11.868	-	map http://nej.netease.com/nej/src/base/global.js -> 1382417350389.js
+[INFO] 2013-10-22 12:49:11.868	-	downloading http://nej.netease.com/nej/src/base/global.js
+[DBUG] 2013-10-22 12:49:11.870	-	map http://nej.netease.com/nej/src/patched/trident-0/config.js -> 1382417350390.js
+[INFO] 2013-10-22 12:49:11.871	-	downloading http://nej.netease.com/nej/src/patched/trident-0/config.js
+[DBUG] 2013-10-22 12:49:11.872	-	map http://nej.netease.com/nej/src/patched/trident-1/config.js -> 1382417350391.js
+[INFO] 2013-10-22 12:49:11.875	-	downloading http://nej.netease.com/nej/src/patched/trident-1/config.js
+[DBUG] 2013-10-22 12:49:11.876	-	map http://nej.netease.com/nej/src/patched/trident/config.js -> 1382417350392.js
+[INFO] 2013-10-22 12:49:11.877	-	downloading http://nej.netease.com/nej/src/patched/trident/config.js
+[DBUG] 2013-10-22 12:49:11.878	-	map http://nej.netease.com/nej/src/patched/gecko/config.js -> 1382417350393.js
+[INFO] 2013-10-22 12:49:11.879	-	downloading http://nej.netease.com/nej/src/patched/gecko/config.js
+[DBUG] 2013-10-22 12:49:11.880	-	map http://nej.netease.com/nej/src/patched/webkit/config.js -> 1382417350394.js
+[INFO] 2013-10-22 12:49:11.881	-	downloading http://nej.netease.com/nej/src/patched/webkit/config.js
+[DBUG] 2013-10-22 12:49:11.882	-	map http://nej.netease.com/nej/src/patched/presto/config.js -> 1382417350395.js
+[INFO] 2013-10-22 12:49:11.883	-	downloading http://nej.netease.com/nej/src/patched/presto/config.js
+[DBUG] 2013-10-22 12:49:11.891	-	dependency result: http://nej.netease.com/nej/src/util/template/trimpath.nej.js -> undefined
+[DBUG] 2013-10-22 12:49:11.893	-	dependency result: http://nej.netease.com/nej/src/patched/trident-1/api.js -> ["{lib}patched/api.js"]
+[DBUG] 2013-10-22 12:49:11.894	-	map http://nej.netease.com/nej/src/patched/api.js -> 1382417350396.js
+[INFO] 2013-10-22 12:49:11.895	-	downloading http://nej.netease.com/nej/src/patched/api.js
+[DBUG] 2013-10-22 12:49:11.898	-	dependency result: http://nej.netease.com/nej/src/patched/trident-0/api.js -> ["{lib}patched/api.js"]
+[DBUG] 2013-10-22 12:49:11.931	-	dependency result: http://nej.netease.com/nej/src/base/util.js -> ["{lib}base/global.js","{lib}base/element.js"]
+[DBUG] 2013-10-22 12:49:11.952	-	dependency result: http://nej.netease.com/nej/src/patched/gecko/api.js -> ["{lib}patched/api.js"]
+[DBUG] 2013-10-22 12:49:11.970	-	dependency result: http://nej.netease.com/nej/src/patched/trident/api.js -> ["{lib}patched/api.js"]
+[DBUG] 2013-10-22 12:49:11.989	-	dependency result: http://nej.netease.com/nej/src/patched/trident-1/json.js -> ["{lib}patched/json.js"]
+[DBUG] 2013-10-22 12:49:11.990	-	map http://nej.netease.com/nej/src/patched/json.js -> 1382417350397.js
+[INFO] 2013-10-22 12:49:12.5	-	downloading http://nej.netease.com/nej/src/patched/json.js
+[DBUG] 2013-10-22 12:49:12.7	-	dependency result: http://nej.netease.com/nej/src/patched/trident-0/json.js -> ["{lib}util/encode/json.js","{lib}patched/json.js"]
+[DBUG] 2013-10-22 12:49:12.25	-	map http://nej.netease.com/nej/src/util/encode/json.js -> 1382417350398.js
+[INFO] 2013-10-22 12:49:12.26	-	downloading http://nej.netease.com/nej/src/util/encode/json.js
+[DBUG] 2013-10-22 12:49:12.28	-	dependency result: http://nej.netease.com/nej/src/patched/webkit/api.js -> ["{lib}patched/com/api.js"]
+[DBUG] 2013-10-22 12:49:12.30	-	map http://nej.netease.com/nej/src/patched/com/api.js -> 1382417350399.js
+[INFO] 2013-10-22 12:49:12.31	-	downloading http://nej.netease.com/nej/src/patched/com/api.js
+[DBUG] 2013-10-22 12:49:12.48	-	dependency result: http://nej.netease.com/nej/src/patched/presto/api.js -> ["{lib}patched/api.js"]
+[DBUG] 2013-10-22 12:49:12.64	-	dependency result: http://nej.netease.com/nej/src/patched/trident/json.js -> ["{lib}util/encode/json.js","{lib}patched/json.js"]
+[DBUG] 2013-10-22 12:49:12.79	-	dependency result: http://nej.netease.com/nej/src/patched/gecko/json.js -> ["{lib}patched/json.js"]
+[DBUG] 2013-10-22 12:49:12.92	-	dependency result: http://nej.netease.com/nej/src/patched/webkit/json.js -> ["{lib}patched/json.js"]
+[DBUG] 2013-10-22 12:49:12.107	-	dependency result: http://nej.netease.com/nej/src/util/timer/animation.js -> ["{lib}base/platform.js"]
+[DBUG] 2013-10-22 12:49:12.123	-	map http://nej.netease.com/nej/src/base/platform.js -> 1382417350400.js
+[INFO] 2013-10-22 12:49:12.124	-	downloading http://nej.netease.com/nej/src/base/platform.js
+[DBUG] 2013-10-22 12:49:12.125	-	dependency result: http://nej.netease.com/nej/src/patched/presto/json.js -> ["{lib}patched/json.js"]
+[DBUG] 2013-10-22 12:49:12.158	-	dependency result: http://nej.netease.com/nej/src/patched/trident-0/ajax.js -> ["{lib}patched/ajax.js"]
+[DBUG] 2013-10-22 12:49:12.159	-	map http://nej.netease.com/nej/src/patched/ajax.js -> 1382417350401.js
+[INFO] 2013-10-22 12:49:12.160	-	downloading http://nej.netease.com/nej/src/patched/ajax.js
+[DBUG] 2013-10-22 12:49:12.164	-	dependency result: http://nej.netease.com/nej/src/util/dispatcher/dsp/group.js -> ["{lib}base/constant.js","{lib}util/event.js","{lib}util/template/tpl.js","{lib}util/dispatcher/dsp/util.js"]
+[DBUG] 2013-10-22 12:49:12.181	-	map http://nej.netease.com/nej/src/util/dispatcher/dsp/util.js -> 1382417350402.js
+[INFO] 2013-10-22 12:49:12.183	-	downloading http://nej.netease.com/nej/src/util/dispatcher/dsp/util.js
+[DBUG] 2013-10-22 12:49:12.185	-	dependency result: http://nej.netease.com/nej/src/patched/presto/ajax.js -> ["{lib}patched/ajax.js"]
+[DBUG] 2013-10-22 12:49:12.199	-	dependency result: http://nej.netease.com/nej/src/patched/webkit/ajax.js -> ["{lib}patched/ajax.js"]
+[DBUG] 2013-10-22 12:49:12.216	-	dependency result: http://nej.netease.com/nej/src/patched/gecko/ajax.js -> ["{lib}patched/ajax.js"]
+[DBUG] 2013-10-22 12:49:12.241	-	dependency result: http://nej.netease.com/nej/src/patched/trident-1/ajax.js -> ["{lib}patched/ajax.js"]
+[DBUG] 2013-10-22 12:49:12.244	-	dependency result: http://nej.netease.com/nej/src/patched/trident/ajax.js -> ["{lib}patched/ajax.js","{lib}util/encode/json.js"]
+[DBUG] 2013-10-22 12:49:12.262	-	dependency result: http://nej.netease.com/nej/src/util/ajax/loader/loader.js -> ["{lib}base/constant.js","{lib}base/event.js","{lib}util/event.js"]
+[DBUG] 2013-10-22 12:49:12.439	-	dependency result: http://nej.netease.com/nej/src/patched/gecko/config.js -> ["{lib}patched/config.js"]
+[DBUG] 2013-10-22 12:49:12.440	-	map http://nej.netease.com/nej/src/patched/config.js -> 1382417350403.js
+[INFO] 2013-10-22 12:49:12.462	-	downloading http://nej.netease.com/nej/src/patched/config.js
+[DBUG] 2013-10-22 12:49:12.464	-	dependency result: http://nej.netease.com/nej/src/patched/webkit/config.js -> ["{lib}patched/config.js"]
+[DBUG] 2013-10-22 12:49:12.484	-	dependency result: http://nej.netease.com/nej/src/patched/trident/config.js -> ["{lib}patched/config.js"]
+[DBUG] 2013-10-22 12:49:12.499	-	dependency result: http://nej.netease.com/nej/src/patched/trident-1/config.js -> ["{lib}patched/config.js"]
+[DBUG] 2013-10-22 12:49:12.517	-	dependency result: http://nej.netease.com/nej/src/patched/trident-0/config.js -> ["{lib}patched/config.js"]
+[DBUG] 2013-10-22 12:49:12.533	-	dependency result: http://nej.netease.com/nej/src/base/global.js -> null
+[DBUG] 2013-10-22 12:49:12.552	-	dependency result: http://nej.netease.com/nej/src/util/encode/json.js -> ["{lib}base/global.js"]
+[DBUG] 2013-10-22 12:49:12.553	-	dependency result: http://nej.netease.com/nej/src/patched/json.js -> null
+[DBUG] 2013-10-22 12:49:12.555	-	dependency result: http://nej.netease.com/nej/src/patched/presto/config.js -> ["{lib}patched/config.js"]
+[DBUG] 2013-10-22 12:49:12.557	-	dependency result: http://nej.netease.com/nej/src/patched/com/api.js -> ["{lib}patched/api.js"]
+[DBUG] 2013-10-22 12:49:12.561	-	dependency result: http://nej.netease.com/nej/src/patched/api.js -> ["{lib}base/platform.js"]
+[DBUG] 2013-10-22 12:49:12.564	-	dependency result: http://nej.netease.com/nej/src/patched/ajax.js -> ["{lib}base/platform.js","{lib}base/constant.js","{lib}util/ajax/proxy/xhr.js","{lib}util/ajax/proxy/flash.js","{lib}util/ajax/proxy/frame.js","{lib}util/ajax/proxy/upload.js"]
+[DBUG] 2013-10-22 12:49:12.565	-	map http://nej.netease.com/nej/src/util/ajax/proxy/xhr.js -> 1382417350404.js
+[INFO] 2013-10-22 12:49:12.566	-	downloading http://nej.netease.com/nej/src/util/ajax/proxy/xhr.js
+[DBUG] 2013-10-22 12:49:12.567	-	map http://nej.netease.com/nej/src/util/ajax/proxy/flash.js -> 1382417350405.js
+[INFO] 2013-10-22 12:49:12.568	-	downloading http://nej.netease.com/nej/src/util/ajax/proxy/flash.js
+[DBUG] 2013-10-22 12:49:12.571	-	map http://nej.netease.com/nej/src/util/ajax/proxy/frame.js -> 1382417350406.js
+[INFO] 2013-10-22 12:49:12.634	-	downloading http://nej.netease.com/nej/src/util/ajax/proxy/frame.js
+[DBUG] 2013-10-22 12:49:12.635	-	map http://nej.netease.com/nej/src/util/ajax/proxy/upload.js -> 1382417350407.js
+[INFO] 2013-10-22 12:49:12.636	-	downloading http://nej.netease.com/nej/src/util/ajax/proxy/upload.js
+[DBUG] 2013-10-22 12:49:12.638	-	dependency result: http://nej.netease.com/nej/src/util/dispatcher/dsp/util.js -> ["{lib}base/util.js","{lib}util/dispatcher/module.2.js","{lib}util/dispatcher/dsp/node.js"]
+[DBUG] 2013-10-22 12:49:12.658	-	map http://nej.netease.com/nej/src/util/dispatcher/dsp/node.js -> 1382417350408.js
+[INFO] 2013-10-22 12:49:12.659	-	downloading http://nej.netease.com/nej/src/util/dispatcher/dsp/node.js
+[DBUG] 2013-10-22 12:49:12.662	-	dependency result: http://nej.netease.com/nej/src/base/platform.js -> ["{lib}base/global.js"]
+[DBUG] 2013-10-22 12:49:12.863	-	dependency result: http://nej.netease.com/nej/src/util/ajax/proxy/flash.js -> ["{lib}util/flash/flash.js","{lib}util/ajax/proxy/proxy.js"]
+[DBUG] 2013-10-22 12:49:12.878	-	map http://nej.netease.com/nej/src/util/flash/flash.js -> 1382417350409.js
+[INFO] 2013-10-22 12:49:12.879	-	downloading http://nej.netease.com/nej/src/util/flash/flash.js
+[DBUG] 2013-10-22 12:49:12.900	-	map http://nej.netease.com/nej/src/util/ajax/proxy/proxy.js -> 1382417350410.js
+[INFO] 2013-10-22 12:49:12.901	-	downloading http://nej.netease.com/nej/src/util/ajax/proxy/proxy.js
+[DBUG] 2013-10-22 12:49:12.903	-	dependency result: http://nej.netease.com/nej/src/util/ajax/proxy/xhr.js -> ["{lib}util/ajax/proxy/proxy.js"]
+[DBUG] 2013-10-22 12:49:12.935	-	dependency result: http://nej.netease.com/nej/src/util/ajax/proxy/upload.js -> ["{lib}util/ajax/message.js","{lib}util/ajax/proxy/proxy.js"]
+[DBUG] 2013-10-22 12:49:12.936	-	map http://nej.netease.com/nej/src/util/ajax/message.js -> 1382417350411.js
+[INFO] 2013-10-22 12:49:12.937	-	downloading http://nej.netease.com/nej/src/util/ajax/message.js
+[DBUG] 2013-10-22 12:49:12.941	-	dependency result: http://nej.netease.com/nej/src/util/dispatcher/dsp/node.js -> ["{lib}util/event.js"]
+[DBUG] 2013-10-22 12:49:12.960	-	dependency result: http://nej.netease.com/nej/src/patched/config.js -> ["{lib}base/platform.js"]
+[DBUG] 2013-10-22 12:49:12.979	-	dependency result: http://nej.netease.com/nej/src/util/ajax/proxy/frame.js -> ["{lib}util/ajax/message.js","{lib}util/ajax/proxy/proxy.js"]
+[DBUG] 2013-10-22 12:49:13.173	-	dependency result: http://nej.netease.com/nej/src/util/flash/flash.js -> ["{lib}util/template/jst.js","{lib}util/timer/animation.js"]
+[DBUG] 2013-10-22 12:49:13.193	-	dependency result: http://nej.netease.com/nej/src/util/ajax/message.js -> ["{patch}message.js","{lib}base/element.js"]
+[DBUG] 2013-10-22 12:49:13.216	-	map http://nej.netease.com/nej/src/patched/trident-0/message.js -> 1382417350412.js
+[INFO] 2013-10-22 12:49:13.217	-	downloading http://nej.netease.com/nej/src/patched/trident-0/message.js
+[DBUG] 2013-10-22 12:49:13.220	-	map http://nej.netease.com/nej/src/patched/trident-1/message.js -> 1382417350413.js
+[INFO] 2013-10-22 12:49:13.220	-	downloading http://nej.netease.com/nej/src/patched/trident-1/message.js
+[DBUG] 2013-10-22 12:49:13.222	-	map http://nej.netease.com/nej/src/patched/trident/message.js -> 1382417350414.js
+[INFO] 2013-10-22 12:49:13.222	-	downloading http://nej.netease.com/nej/src/patched/trident/message.js
+[DBUG] 2013-10-22 12:49:13.223	-	map http://nej.netease.com/nej/src/patched/gecko/message.js -> 1382417350415.js
+[INFO] 2013-10-22 12:49:13.224	-	downloading http://nej.netease.com/nej/src/patched/gecko/message.js
+[DBUG] 2013-10-22 12:49:13.225	-	map http://nej.netease.com/nej/src/patched/webkit/message.js -> 1382417350416.js
+[INFO] 2013-10-22 12:49:13.226	-	downloading http://nej.netease.com/nej/src/patched/webkit/message.js
+[DBUG] 2013-10-22 12:49:13.227	-	map http://nej.netease.com/nej/src/patched/presto/message.js -> 1382417350417.js
+[INFO] 2013-10-22 12:49:13.228	-	downloading http://nej.netease.com/nej/src/patched/presto/message.js
+[DBUG] 2013-10-22 12:49:13.231	-	dependency result: http://nej.netease.com/nej/src/util/ajax/proxy/proxy.js -> ["{patch}config.js","{lib}base/util.js","{lib}base/event.js","{lib}base/constant.js","{lib}base/element.js","{lib}util/event.js"]
+[DBUG] 2013-10-22 12:49:13.414	-	dependency result: http://nej.netease.com/nej/src/patched/trident-1/message.js -> ["{lib}patched/message.js"]
+[DBUG] 2013-10-22 12:49:13.416	-	map http://nej.netease.com/nej/src/patched/message.js -> 1382417350418.js
+[INFO] 2013-10-22 12:49:13.416	-	downloading http://nej.netease.com/nej/src/patched/message.js
+[DBUG] 2013-10-22 12:49:13.436	-	dependency result: http://nej.netease.com/nej/src/patched/trident-0/message.js -> ["{lib}patched/message.js"]
+[DBUG] 2013-10-22 12:49:13.463	-	dependency result: http://nej.netease.com/nej/src/patched/trident/message.js -> ["{lib}patched/message.js","{lib}base/util.js","{lib}util/event/event.js","{lib}util/encode/json.js"]
+[DBUG] 2013-10-22 12:49:13.488	-	dependency result: http://nej.netease.com/nej/src/patched/gecko/message.js -> ["{lib}patched/message.js"]
+[DBUG] 2013-10-22 12:49:13.505	-	dependency result: http://nej.netease.com/nej/src/patched/webkit/message.js -> ["{lib}patched/message.js"]
+[DBUG] 2013-10-22 12:49:13.525	-	dependency result: http://nej.netease.com/nej/src/patched/presto/message.js -> ["{lib}patched/message.js"]
+[DBUG] 2013-10-22 12:49:13.709	-	dependency result: http://nej.netease.com/nej/src/patched/message.js -> ["{lib}base/platform.js"]
+[WARN] 2013-10-22 12:49:13.727	-	css file not exist -> .m-a0{min-height:500px;_height:500px;background:#f00;}
+.m-a0 input{padding:5px 10px;margin:10px 0;}
+[WARN] 2013-10-22 12:49:13.733	-	css file not exist -> .m-a1{min-height:500px;_height:500px;background:#fdc;}
+.m-a1 input{padding:5px 10px;margin:10px 0;}
+[WARN] 2013-10-22 12:49:13.734	-	css file not exist -> .m-a2{min-height:500px;_height:500px;background:#aaa;}
+.m-a2 input{padding:5px 10px;margin:10px 0;}
+[WARN] 2013-10-22 12:49:13.736	-	css file not exist -> .m-a .w-tab2{float:left;width:100px;margin-right:-100px;text-align:center;font-size:14px;}
+.m-a .w-tab2 .itm{display:block;height:30px;line-height:30px;margin-bottom:5px;color:#000;background:#ccc;}
+.m-a .w-tab2 .itm:hover{text-decoration:none;}
+.m-a .w-tab2 .js-selected{background:#888;color:#fff;font-weight:bold;}
+.m-a .w-box2{margin-left:100px;padding-left:10px;border-left:1px solid #888;}
+[WARN] 2013-10-22 12:49:13.737	-	css file not exist -> .m-b0{background:#fd0;}
+[WARN] 2013-10-22 12:49:13.738	-	css file not exist -> .m-b1{background:#ddc;}
+[WARN] 2013-10-22 12:49:13.738	-	css file not exist -> .m-b2{background:#eee;font-size:16px;line-height:20px;}
+[WARN] 2013-10-22 12:49:13.739	-	css file not exist -> .m-b{min-height:500px;_height:500px;background:#f00;}
+.m-b .bx{float:left;width:50%;}
+.m-b .bm{clear:both;}
+[WARN] 2013-10-22 12:49:13.740	-	css file not exist -> .m-c{min-height:500px;_height:500px;background:#000;color:#fff;font-size:14px;}
+[WARN] 2013-10-22 12:49:13.741	-	css file not exist -> .m-d0{min-height:500px;_height:500px;background:#f00;}
+.m-d0 input{padding:5px 10px;margin:10px 0;}
+[WARN] 2013-10-22 12:49:13.742	-	css file not exist -> .m-d1{min-height:500px;_height:500px;background:#fdc;}
+.m-d1 input{padding:5px 10px;margin:10px 0;}
+[WARN] 2013-10-22 12:49:13.743	-	css file not exist -> .m-d2{min-height:500px;_height:500px;background:#aaa;}
+.m-d2 input{padding:5px 10px;margin:10px 0;}
+[WARN] 2013-10-22 12:49:13.745	-	css file not exist -> .m-d .w-tab2{float:left;width:100px;margin-right:-100px;text-align:center;font-size:14px;}
+.m-d .w-tab2 .itm{display:block;height:30px;line-height:30px;margin-bottom:5px;color:#000;background:#ccc;}
+.m-d .w-tab2 .itm:hover{text-decoration:none;}
+.m-d .w-tab2 .js-selected{background:#888;color:#fff;font-weight:bold;}
+.m-d .w-box2{margin-left:100px;padding-left:10px;border-left:1px solid #888;}
+[WARN] 2013-10-22 12:49:13.746	-	css file not exist -> .w-tab{border-bottom:1px solid #000;overflow:hidden;text-align:center;font-size:16px;zoom:1;}
+.w-tab .itm{display:block;float:left;width:100px;height:30px;line-height:30px;margin-right:10px;color:#000;background:#aaa;}
+.w-tab .itm:hover{text-decoration:none;}
+.w-tab .js-selected{background:#000;color:#fff;}
+.w-box{padding:10px 0;}
+[INFO] 2013-10-22 12:49:13.749	-	core css file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/css/common.css"]
+[INFO] 2013-10-22 12:49:13.750	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a0.html css file list -> ["cs-code-1382417350418"]
+[INFO] 2013-10-22 12:49:13.751	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a1.html css file list -> ["cs-code-1382417350419"]
+[INFO] 2013-10-22 12:49:13.752	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a2.html css file list -> ["cs-code-1382417350420"]
+[INFO] 2013-10-22 12:49:13.753	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.html css file list -> ["cs-code-1382417350421"]
+[INFO] 2013-10-22 12:49:13.754	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b0.html css file list -> ["cs-code-1382417350422"]
+[INFO] 2013-10-22 12:49:13.754	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b1.html css file list -> ["cs-code-1382417350423"]
+[INFO] 2013-10-22 12:49:13.755	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b2.html css file list -> ["cs-code-1382417350424"]
+[INFO] 2013-10-22 12:49:13.756	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.html css file list -> ["cs-code-1382417350425"]
+[INFO] 2013-10-22 12:49:13.756	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/c.html css file list -> ["cs-code-1382417350426"]
+[INFO] 2013-10-22 12:49:13.757	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d0.html css file list -> ["cs-code-1382417350427"]
+[INFO] 2013-10-22 12:49:13.757	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d1.html css file list -> ["cs-code-1382417350428"]
+[INFO] 2013-10-22 12:49:13.758	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d2.html css file list -> ["cs-code-1382417350429"]
+[INFO] 2013-10-22 12:49:13.759	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.html css file list -> ["cs-code-1382417350430"]
+[INFO] 2013-10-22 12:49:13.759	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/m.html css file list -> ["cs-code-1382417350431"]
+[INFO] 2013-10-22 12:49:13.760	-	pg_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index.html css file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/css/index.css"]
+[INFO] 2013-10-22 12:49:13.761	-	pg_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/simple.html css file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/css/simple.css"]
+[INFO] 2013-10-22 12:49:13.763	-	core js file list -> ["http://nej.netease.com/nej/src/base/global.js","http://nej.netease.com/nej/src/base/platform.js","http://nej.netease.com/nej/src/patched/config.js","http://nej.netease.com/nej/src/patched/trident-0/config.js","http://nej.netease.com/nej/src/patched/trident-1/config.js","http://nej.netease.com/nej/src/patched/trident/config.js","http://nej.netease.com/nej/src/patched/gecko/config.js","http://nej.netease.com/nej/src/patched/webkit/config.js","http://nej.netease.com/nej/src/patched/presto/config.js","http://nej.netease.com/nej/src/base/constant.js","http://nej.netease.com/nej/src/base/util.js","http://nej.netease.com/nej/src/patched/api.js","http://nej.netease.com/nej/src/patched/trident-0/api.js","http://nej.netease.com/nej/src/patched/trident-1/api.js","http://nej.netease.com/nej/src/patched/trident/api.js","http://nej.netease.com/nej/src/patched/gecko/api.js","http://nej.netease.com/nej/src/patched/com/api.js","http://nej.netease.com/nej/src/patched/webkit/api.js","http://nej.netease.com/nej/src/patched/presto/api.js","http://nej.netease.com/nej/src/util/encode/json.js","http://nej.netease.com/nej/src/patched/json.js","http://nej.netease.com/nej/src/patched/trident-0/json.js","http://nej.netease.com/nej/src/patched/trident-1/json.js","http://nej.netease.com/nej/src/patched/trident/json.js","http://nej.netease.com/nej/src/patched/gecko/json.js","http://nej.netease.com/nej/src/patched/webkit/json.js","http://nej.netease.com/nej/src/patched/presto/json.js","http://nej.netease.com/nej/src/base/element.js","http://nej.netease.com/nej/src/base/event.js","http://nej.netease.com/nej/src/util/event.js","http://nej.netease.com/nej/src/util/dispatcher/module.2.js","D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/module.js","http://nej.netease.com/nej/src/util/tab/tab.js","http://nej.netease.com/nej/src/util/template/trimpath.nej.js","http://nej.netease.com/nej/src/util/template/jst.js","http://nej.netease.com/nej/src/util/event/event.js","http://nej.netease.com/nej/src/util/ajax/loader/loader.js","http://nej.netease.com/nej/src/util/ajax/loader/html.js","http://nej.netease.com/nej/src/util/ajax/loader/style.js","http://nej.netease.com/nej/src/util/ajax/loader/script.js","http://nej.netease.com/nej/src/util/ajax/tag.js","http://nej.netease.com/nej/src/util/ajax/proxy/proxy.js","http://nej.netease.com/nej/src/util/ajax/proxy/xhr.js","http://nej.netease.com/nej/src/util/timer/animation.js","http://nej.netease.com/nej/src/util/flash/flash.js","http://nej.netease.com/nej/src/util/ajax/proxy/flash.js","http://nej.netease.com/nej/src/patched/message.js","http://nej.netease.com/nej/src/patched/trident-0/message.js","http://nej.netease.com/nej/src/patched/trident-1/message.js","http://nej.netease.com/nej/src/patched/trident/message.js","http://nej.netease.com/nej/src/patched/gecko/message.js","http://nej.netease.com/nej/src/patched/webkit/message.js","http://nej.netease.com/nej/src/patched/presto/message.js","http://nej.netease.com/nej/src/util/ajax/message.js","http://nej.netease.com/nej/src/util/ajax/proxy/frame.js","http://nej.netease.com/nej/src/util/ajax/proxy/upload.js","http://nej.netease.com/nej/src/patched/ajax.js","http://nej.netease.com/nej/src/patched/trident-0/ajax.js","http://nej.netease.com/nej/src/patched/trident-1/ajax.js","http://nej.netease.com/nej/src/patched/trident/ajax.js","http://nej.netease.com/nej/src/patched/gecko/ajax.js","http://nej.netease.com/nej/src/patched/webkit/ajax.js","http://nej.netease.com/nej/src/patched/presto/ajax.js","http://nej.netease.com/nej/src/util/ajax/xdr.js","http://nej.netease.com/nej/src/util/template/tpl.js"]
+[INFO] 2013-10-22 12:49:13.764	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a0.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a0.js"]
+[INFO] 2013-10-22 12:49:13.765	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a1.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a1.js"]
+[INFO] 2013-10-22 12:49:13.766	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.a2.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.a2.js"]
+[INFO] 2013-10-22 12:49:13.767	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/a.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/a.js"]
+[INFO] 2013-10-22 12:49:13.768	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b0.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b0.js"]
+[INFO] 2013-10-22 12:49:13.768	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b1.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b1.js"]
+[INFO] 2013-10-22 12:49:13.770	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.b2.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.b2.js"]
+[INFO] 2013-10-22 12:49:13.771	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/b.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/b.js"]
+[INFO] 2013-10-22 12:49:13.772	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/c.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/c.js"]
+[INFO] 2013-10-22 12:49:13.773	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d0.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d0.js"]
+[INFO] 2013-10-22 12:49:13.774	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d1.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d1.js"]
+[INFO] 2013-10-22 12:49:13.775	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.d2.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.d2.js"]
+[INFO] 2013-10-22 12:49:13.776	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/d.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/d.js"]
+[INFO] 2013-10-22 12:49:13.776	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/m.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/m.js"]
+[INFO] 2013-10-22 12:49:13.777	-	tp_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index/ui.html js file list -> ["http://nej.netease.com/nej/src/ui/base.js","D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/module/index/ui.js"]
+[INFO] 2013-10-22 12:49:13.778	-	pg_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/index.html js file list -> ["http://nej.netease.com/nej/src/util/dispatcher/dsp/node.js","http://nej.netease.com/nej/src/util/dispatcher/dsp/util.js","http://nej.netease.com/nej/src/util/dispatcher/dsp/group.js","http://nej.netease.com/nej/src/util/dispatcher/dsp/group.single.js","http://nej.netease.com/nej/src/util/history/history.js","http://nej.netease.com/nej/src/util/dispatcher/dispatcher.2.js","D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/index.js"]
+[INFO] 2013-10-22 12:49:13.779	-	pg_ for D:/workspace/publish/NEJPublisher/demo/web-app/src/html/simple.html js file list -> ["D:/workspace/publish/NEJPublisher/demo/web-app/src/javascript/page/simple.js"]
+[INFO] 2013-10-22 12:49:14.560	-	output D:/workspace/publish/NEJPublisher/demo/deploy/names.txt
+[INFO] 2013-10-22 12:49:14.563	-	output D:/workspace/publish/NEJPublisher/demo/web-app/r/core.css
+[INFO] 2013-10-22 12:49:14.566	-	output D:/workspace/publish/NEJPublisher/demo/web-app/r/core.js
+[INFO] 2013-10-22 12:49:14.573	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/a.a0.html
+[INFO] 2013-10-22 12:49:14.575	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/a.a1.html
+[INFO] 2013-10-22 12:49:14.576	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/a.a2.html
+[INFO] 2013-10-22 12:49:14.578	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/a.html
+[INFO] 2013-10-22 12:49:14.579	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/b.b0.html
+[INFO] 2013-10-22 12:49:14.581	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/b.b1.html
+[INFO] 2013-10-22 12:49:14.582	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/b.b2.html
+[INFO] 2013-10-22 12:49:14.584	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/b.html
+[INFO] 2013-10-22 12:49:14.586	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/c.html
+[INFO] 2013-10-22 12:49:14.587	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/d.d0.html
+[INFO] 2013-10-22 12:49:14.589	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/d.d1.html
+[INFO] 2013-10-22 12:49:14.590	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/d.d2.html
+[INFO] 2013-10-22 12:49:14.592	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/d.html
+[INFO] 2013-10-22 12:49:14.594	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/m.html
+[INFO] 2013-10-22 12:49:14.595	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index/ui.html
+[INFO] 2013-10-22 12:49:14.597	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/index.html
+[INFO] 2013-10-22 12:49:14.599	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/simple.html
+[INFO] 2013-10-22 12:49:14.601	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/test/a.html
+[INFO] 2013-10-22 12:49:14.602	-	output D:/workspace/publish/NEJPublisher/demo/web-app/pub/test/b.html
+[INFO] 2013-10-22 12:49:14.655	-	release done! view release log D:/workspace/publish/NEJPublisher/demo/deploy/20131022.124910242.txt
