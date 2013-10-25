@@ -17,7 +17,8 @@ grunt-contrib-nejpublisher所在的目录，在此目录下执行如下命令：
 grunt dopublish --root=D:/workspace/works/grunt-pulgin-test/
 (其中，“root=”后跟随的路径为release.conf文件所在的目录)
 
-6.以后要打包其他项目，直接在grunt-contrib-nejpublisher所在的目录执行命令，
+6.以后要打包其他项目，先配置你的release.conf，
+直接在grunt-contrib-nejpublisher所在的目录执行命令，
 也可以写批处理文件：
 D:
 cd D:/workspace/node_modules/grunt-contrib-nejpublisher
