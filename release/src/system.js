@@ -12,6 +12,7 @@ var _fs      = require('./file.js'),
     _path    = require('./path.js'),
     _config  = require('./config.js'),
     _parser  = require('./parser.js'),
+    _skin    = require('./skin.js'),
      query   = require('querystring');
 /*
  * 取命令行参数
@@ -42,8 +43,8 @@ var __getConfPath = function(){
  * @return {Void}
  */
 var __doRelease = function(_options){
-     var _result = {};
-    _result.onreleasedone = (_options||{}).onreleasedone;
+    var _result = {},_options = _options||{};
+    _result.onreleasedone = _options.onreleasedone;
     var _root = _options.root;
     // parse config file
     var _conf = _root + '/release.conf';
@@ -59,7 +60,24 @@ var __doRelease = function(_options){
             _result.onreleasedone(_result);
     };
     _parser.download(_result);
-}
+};
+/**
+ * 处理
+ * @param  {[type]} _options [description]
+ * @return {[type]}          [description]
+ */
+var __doReleaseSkin = function(_options){
+    var _result = {},_options = _options||{};
+    _result.onreleasedone = _options.onreleasedone;
+    var _dir = _options.dir||'';
+    var _outname = _options.outname||'index';
+    if(!_dir){
+        console.log('dir is empty!');
+        return;
+    }
+    // parse project
+    _skin.cs(_dir,_outname,_result);
+};
 /*
  * 清除日志
  * @return {Void}
@@ -69,4 +87,5 @@ var __doClearLog = function(){
 };
 // exports api
 exports.release = __doRelease;
+exports.releaseSkin = __doReleaseSkin
 exports.clear   = __doClearLog;

@@ -1,6 +1,6 @@
 {
   "name": "grunt-contrib-nejpublisher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NEJPublisher\r ============",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NetEaseWD/NEJPublisher"
+    "url": "https://github.com/java0racle/NEJPublisherGrunt"
   },
   "author": "genify",
   "license": "BSD",
@@ -19,6 +19,6 @@
     "iconv-lite": "~0.2.11"
   },
   "bugs": {
-    "url": "https://github.com/NetEaseWD/NEJPublisher/issues"
+    "url": "https://github.com/java0racle/NEJPublisherGrunt/issues"
   }
 }

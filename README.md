@@ -23,3 +23,7 @@ grunt dopublish --root=D:/workspace/works/grunt-pulgin-test/
 D:
 cd D:/workspace/node_modules/grunt-contrib-nejpublisher
 grunt dopublish --root=D:/workspace/works/grunt-pulgin-test/
+
+7.加入skin的css合并功能
+grunt-contrib-nejpublisher所在的目录，在此目录下执行如下命令：
+grunt doskinmerge --dir=D:/workspace/music-baseline/webapp/skin/
