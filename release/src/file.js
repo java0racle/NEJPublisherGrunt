@@ -32,7 +32,7 @@ var __doReadFile = (function(){
                 var _buffer = fs.readFileSync(_file);
                 _content = iconv.decode(_buffer,_charset);
             }
-            return _content.split(_reg);
+            return _content==''?null:_content.split(_reg);
         }catch(e){
             return null;
         }

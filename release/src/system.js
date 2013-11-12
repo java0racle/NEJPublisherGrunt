@@ -8,12 +8,12 @@
  */
 // require module
 var _fs      = require('./file.js'),
-    _util    = require('./util.js'),
     _path    = require('./path.js'),
     _config  = require('./config.js'),
     _parser  = require('./parser.js'),
     _skin    = require('./skin.js'),
-     query   = require('querystring');
+     query   = require('querystring'),
+     path    = require('path');
 /*
  * 取命令行参数
  * @return {Object} 命令行参数
@@ -69,14 +69,13 @@ var __doRelease = function(_options){
 var __doReleaseSkin = function(_options){
     var _result = {},_options = _options||{};
     _result.onreleasedone = _options.onreleasedone;
-    var _dir = _options.dir||'';
-    var _outname = _options.outname||'index';
+    var _dir = _options.dir||'D:/workspace/skin.conf';
     if(!_dir){
         console.log('dir is empty!');
         return;
     }
-    // parse project
-    _skin.cs(_dir,_outname,_result);
+    var _file = _path.path(_dir,__dirname+'/');
+    _skin.cssmerge(_file);
 };
 /*
  * 清除日志
