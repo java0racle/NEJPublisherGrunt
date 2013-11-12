@@ -13,7 +13,7 @@ var _fs      = require('./file.js'),
     _parser  = require('./parser.js'),
     _skin    = require('./skin.js'),
      query   = require('querystring'),
-     path    = require('path'); 
+     path    = require('path');
 /*
  * 取命令行参数
  * @return {Object} 命令行参数

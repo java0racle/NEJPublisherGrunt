@@ -8,7 +8,7 @@ var __config,
     _util    = require('./util.js'),
     _path    = require('./path.js')
      fs      = require('fs'),
-     path    = require('path'); 
+     path    = require('path');
 /**
  * 合并css样式为一行
  * @param  {[type]} _file   文件名
