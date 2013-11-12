@@ -15,6 +15,7 @@ npm install -g grunt-cli
 此步骤需要安装的grunt插件已经安装完成，你可以在自己项目新建Gruntfile文件来(以远程任务或者插件形式或者你自己喜欢的形式)管理自己的任务(grunt学习站点：<a target="_blank" href="http://www.gruntjs.org/article/getting_started.html">http://www.gruntjs.org/article/getting_started.html</a>)PS：或者参照下面的办法完成打包或者皮肤的合并功能。
 
 打包功能：
+	
 	a.拷贝release.conf到你的项目去，路径不限定
 
 	b.在命令行中，切换到
@@ -30,7 +31,8 @@ npm install -g grunt-cli
 		grunt dopublish --root=E:/workspace/works/grunt-pulgin-test/
 
 皮肤合并功能：
-	a.你需要配置xxx.conf，可以参考skin.conf文件
 	
+	a.你需要配置xxx.conf，可以参考skin.conf文件
+
 	b.命令行下切换到grunt-contrib-nejpublisher所在的目录，在此目录下执行如下命令：
 	grunt doskinmerge --dir=D:/workspace/skin.conf
