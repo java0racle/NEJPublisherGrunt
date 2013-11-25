@@ -68,10 +68,9 @@ var __doRelease = function(_options){
  */
 var __doReleaseSkin = function(_options){
     var _result = {},_options = _options||{};
-    _result.onreleasedone = _options.onreleasedone;
-    var _dir = _options.dir||'D:/workspace/skin.conf';
+    var _dir = _options.dir||'';
     if(!_dir){
-        console.log('dir is empty!');
+        console.log('dir can not be empty!');
         return;
     }
     var _file = _path.path(_dir,__dirname+'/');
@@ -86,5 +85,5 @@ var __doClearLog = function(){
 };
 // exports api
 exports.release = __doRelease;
-exports.releaseSkin = __doReleaseSkin
+exports.releaseSkin = __doReleaseSkin;
 exports.clear   = __doClearLog;
