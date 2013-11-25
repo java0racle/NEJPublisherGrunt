@@ -36,3 +36,8 @@ npm install -g grunt-cli
 
 	b.命令行下切换到grunt-contrib-nejpublisher所在的目录，在此目录下执行如下命令：
 	grunt doskinmerge --dir=D:/workspace/skin.conf
+	
+	c.通过bat文件来运行
+	D:
+        cd D:/workspace/node_modules/grunt-contrib-nejpublisher
+        grunt doskinmerge --dir=D:/workspace/skin.conf
