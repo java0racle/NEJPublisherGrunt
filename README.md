@@ -30,7 +30,7 @@ npm install -g grunt-cli
 		cd E:/workspace/node_modules/grunt-contrib-nejpublisher
 		grunt dopublish --root=E:/workspace/works/grunt-pulgin-test/
 
-皮肤合并功能：
+皮肤合并功能(云音乐版本)：
 	
 	a.你需要配置xxx.conf，可以参考skin.conf文件
 

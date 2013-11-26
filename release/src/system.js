@@ -68,7 +68,7 @@ var __doRelease = function(_options){
  */
 var __doReleaseSkin = function(_options){
     var _result = {},_options = _options||{};
-    var _dir = _options.dir||'';
+    var _dir = _options.dir||'D:/workspace/skin.conf';
     if(!_dir){
         console.log('dir can not be empty!');
         return;
