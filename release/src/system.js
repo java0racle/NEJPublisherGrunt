@@ -45,7 +45,7 @@ var __getConfPath = function(){
 var __doRelease = function(_options){
     var _result = {},_options = _options||{};
     _result.onreleasedone = _options.onreleasedone;
-    var _root = _options.root;
+    var _root = _options.root||"D:/workspace/music-baseline/deploy";
     // parse config file
     var _conf = _root + '/release.conf';
     _config.parse(_path.path(_conf,__dirname+'/'));

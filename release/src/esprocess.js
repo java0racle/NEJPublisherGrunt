@@ -59,13 +59,14 @@ function uglify_main(hash_code_orgin,hash_group_config,options){
         if (a instanceof Array) for (i = 0; i < a.length; ++i) doit();
         return;
     };
- 	function _vardefs(defs) {
- 		[this['type'],MAP(this['declarations'],walk)];
-    };
-    function _block(statements) {
-    	[this['type'],MAP(this['body'],walk)];
-    };
+    var emptyFunction = function(){};
     var walkers = {
+        "LabeledStatement": function(){
+            [walk(this['label']),walk(this['body'])];
+        },
+        "DoWhileStatement": function(){
+            [walk(this['body']),walk(this['test'])];
+        },
         "Literal": function(){
                 [ this['type'], this['value'] ];
         },
@@ -76,129 +77,174 @@ function uglify_main(hash_code_orgin,hash_group_config,options){
         	}
             [ this['type'], this['name'] ];
         },
-        "Program": function() {
-                [ this['type'], MAP(this['body'], walk) ];
+        "UnaryOperator": emptyFunction,
+        "BinaryOperator": emptyFunction,
+        "LogicalOperator": emptyFunction,
+        "AssignmentOperator": emptyFunction,
+        "UpdateOperator":emptyFunction,
+        "": function(){
+
         },
-        "BlockStatement": _block,
-        "VariableDeclaration": _vardefs,
+        "Program": function() {
+            [ this['type'], MAP(this['body'], walk) ];
+        },
+        "BlockStatement": function () {
+            [this['type'],MAP(this['body'],walk)];
+        },
+        "VariableDeclaration": function () {
+            [this['type'],MAP(this['declarations'],walk)];
+        },
         "VariableDeclarator": function(){
             [this['type'],walk(this['id']),walk(this['init'])];
         },
         "EmptyStatement": function(){
-                [this['type'],'empty'];
+            [this['type'],'empty'];
         },
         "ThisExpression": function(){
-                [this['type'],'thisexpression'];
+            [this['type'],'thisexpression'];
         },
         "AssignmentExpression": function() {
-                [ this['type'], this['operator'], walk(this['left']), walk(this['right']) ];
+            [ this['type'], this['operator'], walk(this['left']), walk(this['right']) ];
         },
         "MemberExpression": function() {
-                [ this['type'], walk(this['object']), walk(this['property']) ];
+            [ this['type'], walk(this['object']), walk(this['property']) ];
         },
         "CallExpression": function() {
-                [ this['type'], walk(this['callee']), MAP(this['arguments'], walk) ];
+            [ this['type'], walk(this['callee']), MAP(this['arguments'], walk) ];
         },
+        "YieldExpression": function() {
+            [ walk(this['argument'])];
+        },
+        "ComprehensionExpression": function() {
+            [ walk(this['body']), MAP(this['blocks'],walk), walk(this['filter'])];
+        },
+        "GeneratorExpression": function() {
+            [walk(this['body']), MAP(this['blocks'],walk), walk(this['filter'])];
+        },
+        "GraphExpression": function() {
+            [walk(this['expression'])];
+        },
+        "GraphIndexExpression": function() {
+            [this['index']];
+        },
+        "LetExpression": function() {
+            [MAP(this['head'],walk), walk(this['body'])];
+        },
+
         "FunctionDeclaration": function(){
-                [ this['type'], walk(this['id']), 
-                    MAP(this['params'], walk), 
-                    MAP(this['defaults'], walk),
-                    walk(this['body']) ];
+            [ this['type'], walk(this['id']), 
+            MAP(this['params'], walk), 
+            MAP(this['defaults'], walk),
+            walk(this['body']) ];
         },
         "FunctionExpression": function() {
-                [ this['type'], this['id'], MAP(this['params'], walk), MAP(this['body']['body'], walk) ];
+            [ this['type'], this['id'], MAP(this['params'], walk), MAP(this['body']['body'], walk) ];
+        },
+        "ArrowExpression": function() {
+            [ MAP(this['params'],walk), MAP(this['defaults'],walk), walk(this['rest']), walk(this['body'])];
         },
         "IfStatement": function() {
-                [ this['type'], walk(this['consequent']), walk(this['test']), walk(this['alternate']) ];
+            [ this['type'], walk(this['consequent']), walk(this['test']), walk(this['alternate']) ];
         },
         "ConditionalExpression": function(){
-                [ this['type'], walk(this['test']), walk(this['consequent']), walk(this['alternate']) ];
+            [ this['type'], walk(this['test']), walk(this['consequent']), walk(this['alternate']) ];
         },
         "ForStatement": function() {
-                [ this['type'], walk(this['init']), walk(this['test']), walk(this['update']), walk(this['body']) ];
+            [ this['type'], walk(this['init']), walk(this['test']), walk(this['update']), walk(this['body']) ];
+        },
+        "ForOfStatement": function() {
+            [ walk(this['left']), walk(this['right']), walk(this['body'])];
+        },
+        "LetStatement": function() {
+            [ MAP(this['head'],walk), walk(this['body'])];
+        },
+        "DebuggerStatement": function() {
+            [this['type']];
         },
         "ForInStatement": function() {
-                [ this['type'], walk(this['left']), walk(this['right']), walk(this['body']) ];
+            [ this['type'], walk(this['left']), walk(this['right']), walk(this['body']) ];
         },
         "ReturnStatement": function() {
-                [ this['type'], walk(this['argument']) ];
+            [ this['type'], walk(this['argument']) ];
         },
         "BinaryExpression": function(){
-                 [ this['type'], this['operator'], walk(this['left']), walk(this['right']) ];
+            [ this['type'], this['operator'], walk(this['left']), walk(this['right']) ];
         },
         "LogicalExpression": function() {
-                [ this['type'], this['operator'], walk(this['left']), walk(this['right']) ];
+            [ this['type'], this['operator'], walk(this['left']), walk(this['right']) ];
         },
         "UpdateExpression":function(){
             [ this['type'], this['operator'], walk(this['argument']) ];
         },
         "UnaryExpression": function(){
-                [ this['type'], this['operator'], walk(this['argument']) ];
+            [ this['type'], this['operator'], walk(this['argument']) ];
         },
-        "ObjectExpression": function(props) {
-                [ this['type'], MAP(this['properties'], function(p){
-                        [ walk(p['key']), walk(p['value']) ]
-                }) ];
+        "ObjectExpression": function() {
+            [ this['type'], MAP(this['properties'], function(p){
+                    [ walk(p['key']), walk(p['value']) ];
+            }) ];
+        },
+        "ObjectPattern": function() {
+            [ this['type'], MAP(this['properties'], function(p){
+                    [ walk(p['key']), walk(p['value']) ];
+            }) ];
+        },
+        "ArrayPattern": function() {
+            [MAP(this['elements'],walk)];
         },
         "ArrayExpression": function() {
-                [ this['type'], MAP(this['elements'], walk) ];
+            [ this['type'], MAP(this['elements'], walk) ];
         },
         "ExpressionStatement": function() {
-                [ this['type'], walk(this['expression']) ];
+            [ this['type'], walk(this['expression']) ];
         },
         "SequenceExpression": function() {
-                [ this['type'] ].concat(MAP(this['expressions'], walk));
+            [ MAP(this['expressions'], walk)];
         },
         "NewExpression": function() {
-                [ this['type'], walk(this['callee'],MAP(this['arguments'],walk)) ];
+            [ this['type'], walk(this['callee'],MAP(this['arguments'],walk)) ];
         },
         "BreakStatement": function() {
-                [ this['type'], this['label'] ];
+            [ this['type'], this['label'] ];
+        },
+        "WithStatement": function() {
+            [ walk(this['object']),walk(this['body'])];
         },
         "ContinueStatement": function() {
-                [ this['type'], this['label'] ];
+            [ this['type'], this['label'] ];
         },
         "TryStatement": function() {
-                [
-                        this['type'],
-                        walk(this['block']),
-                        MAP(this['guardedHandlers'],walk),
-                        MAP(this['handlers'],walk)
-                ];
+            [this['type'],
+            walk(this['block']),
+            MAP(this['guardedHandlers'],walk),
+            MAP(this['handlers'],walk)];
         },
         "CatchClause": function(){
-                [
-                        this['type'],
-                        walk(this['param']),
-                        walk(this['body']),
-                ];
+            [this['type'],
+            walk(this['param']),
+            walk(this['body'])];
+        },
+        "ComprehensionBlock": function() {
+            [walk(this['right'])];
         },
         "WhileStatement": function(){
-                [
-                        this['type'],
-                        walk(this['test']),
-                        walk(this['body']),
-                ];
+            [this['type'],
+            walk(this['test']),
+            walk(this['body'])];
         },
         "SwitchStatement": function(){
-                [
-                        this['type'],
-                        walk(this['discriminant']),
-                        MAP(this['cases'],walk)
-                ];
+                [this['type'],
+                walk(this['discriminant']),
+                MAP(this['cases'],walk)];
         },
         "SwitchCase": function(){
-                [
-                        this['type'],
-                        walk(this['test']),
-                        MAP(this['consequent'],walk)
-                ];
+                [this['type'],
+                walk(this['test']),
+                MAP(this['consequent'],walk)];
         },
         "ThrowStatement": function(){
-                [
-                        this['type'],
-                        walk(this['argument'])
-                ];
+                [this['type'],
+                walk(this['argument'])];
         }
     };
 	function walk(ast) {
@@ -208,7 +254,7 @@ function uglify_main(hash_code_orgin,hash_group_config,options){
             var type = ast['type'];
             var gen = walkers[type];
             if(!gen){
-            	debugger;
+            	console.log(type+' is not handle,please give me the feedback')
             }
             return gen.apply(ast);
     	}catch(e){
@@ -305,7 +351,7 @@ function generate_by_group_outcode(group_config,options){
 function combine_ast(ast_list){
 	var result_ast = [];
 	for(var i = 0 ;i <ast_list.length ;i++){
-		result_ast = result_ast.concat(ast_list[i])
+		result_ast = result_ast.concat(ast_list[i]);
 	}
 	return result_ast;
 }
